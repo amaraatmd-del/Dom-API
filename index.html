@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>luma.</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="min-h-screen min-w-[1440px] bg-[#F7F8F3] font-['DM_Sans',sans-serif] text-[#1C1C1A]"
+  >
+    <div class="mx-auto w-[1440px]">
+      <header
+        class="flex h-[72px] items-center w-[1440px] gap-3 border-b border-black/10"
+      >
+        <div
+          class="flex h-[36px] w-[36px] items-center ml-[48px] justify-center rounded-[10px] bg-[#6B813B] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m10 20-1.25-2.5L6 18" />
+            <path d="M10 4 8.75 6.5 6 6" />
+            <path d="m14 20 1.25-2.5L18 18" />
+            <path d="m14 4 1.25 2.5L18 6" />
+            <path d="m17 21-3-6h-4" />
+            <path d="m17 3-3 6 1.5 3" />
+            <path d="M2 12h6.5L10 9" />
+            <path d="m20 10-1.5 2 1.5 2" />
+            <path d="M22 12h-6.5L14 15" />
+            <path d="m4 10 1.5 2L4 14" />
+            <path d="m7 21 3-6-1.5-3" />
+            <path d="m7 3 3 6h4" />
+          </svg>
+        </div>
+        <span class="text-[30px] font-bold tracking-tight"
+          >luma<span class="text-[#6B813B]">.</span></span
+        >
+      </header>
+
+      <div
+        class="flex items-center h-[51px] w-[1440px] justify-between gap-8 border-b border-black/10 py-10"
+      >
+        <span
+          class="text-[44px] ml-[48px] font-medium leading-none tracking-tight"
+        >
+          Find your next <span class="text-[#6B813B]">inspiration.</span>
+        </span>
+        <div
+          class="flex w-[600px] shrink-0 items-center gap-3 rounded-[20px] border border-black/10 bg-white p-2 pl-5"
+        >
+          <svg
+            class="text-[#8A8A82]"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search photos…"
+            class="min-w-0 flex-1 bg-transparent text-[16px] placeholder:text-[#8A8A82] focus:outline-none"
+          />
+          <button
+            id="searchBtn"
+            type="button"
+            class="flex h-[48px] shrink-0 cursor-pointer items-center gap-2 rounded-[14px] bg-[#E0F59A] px-6 font-semibold text-[#1C2A0A] hover:brightness-95"
+          >
+            Search
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M7 17 17 7M8 7h9v9" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="columns-3 mt-6">
+        <img
+          src="fa1ec18435f25e3c5467c2d9cbbd93b4cb02930a.jpg"
+          alt="Zurag1"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="b031787f2dbcf4f7d6f6a4b1c9839e3879fbf3bb.jpg"
+          alt="Zurag2"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="97ef380a3c84808c08a7cc2d7ac56f2df5ce6e0e.jpg"
+          alt="Zurag3"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="c7ad3b12700b6de1c369d39e1f6e85f7aaab8c91.jpg"
+          alt="Zurag4"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="37c7f60ec7cd6dd7ed4e4d895477d7e61664a969.jpg"
+          alt="Zurag5"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="e76aa5d93756c0c3a66692cf2751a972fc138979.jpg"
+          alt="Zurag6"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="0953ddae1f59f107c1f360ea76205c5665e5fdd7.jpg"
+          alt="Zurag7"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="e6e4cb659fa3f5943c31219e84aa7a674db231a6.jpg"
+          alt="Zurag8"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="8eeb6b4fdf7933f12a9eb91e292abdfc6df2e1ab.jpg"
+          alt="Zurag9"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="8002f40ada5838b66b6745a44e57c56c26e3e5b1.jpg"
+          alt="Zurag10"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="82131168e856260594d05479398d7f0b3a1f4e7c.jpg"
+          alt="Zurag11"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+        <img
+          src="9b7bb8842019d24d00fe17c6173883dc0bd3bed7.jpg"
+          alt="Zurag12"
+          class="h-auto w-full rounded-[20px] object-cover mb-6"
+        />
+      </div>
+    </div>
+  </body>
+</html>
