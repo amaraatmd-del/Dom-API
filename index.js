@@ -28,7 +28,7 @@ const loadPhotos = async () => {
         const data = await response.json();
         const photos = query ? data.results : data;
 
-        if (photos.length === 0 && page === 1) {
+        if (photos.length === 0 && page === 1) {``
             talbar.innerHTML = `<p class="py-10 text-center text-[#8A8A82]">Зураг олдсонгүй</p>`;}
 
         photos.forEach((photo) => {
